@@ -6,37 +6,37 @@ title: Course Information
 
 ## Overview
 
-Insert description paragraph
+Being an effective programmer is not just about writing code, it's about designing solutions to problems in a way that a computer would understand, i.e. designing and implementing algorithms. However, most introductory courses focus exclusively on the implementing, ignoring the design elements. Over two sessions, this course will introduce you to some fundamental principles that are the basis of writing computer code in any language and should enable you to write, develop and debug your code more effectively. This course is aimed at anyone who is currently programming or thinking about learning to programme.
 
 ## Course objectives
 
 This course will covering the following:
 
-- Bullet point learning objectives
+- what an algorithm is and the role it plays in coding.
+- a number of computational thinking approaches and concepts for developing algorithms.
+- how to differentiate between bugs related to syntax from those related to the underlying algorithm to facilitate more effective troubleshooting.
+
 
 ## Pre-requisite knowledge
 
-Specify as either essential or preferable, and try to relate to courses we provide and their learning objectives.
+There is no pre-requisite knowledge and the workshop is designed to be appropriate for anyone interested in any programming language.
 
 ## Workshop format
 
-This a hybrid workshop run over XX sessions. The [schedule can be found here](https://uniexeterrse.github.io/UoE-workshop-template/schedule.html).
+This a hybrid workshop run over 2 sessions. The [schedule can be found here](https://uniexeterrse.github.io/computational-thinking/schedule.html).
 
 ## Upcoming course dates
 
 | Session name | Dates | Time  | Venue | Sign up link |
 | --- |--- |--- |--- | --- |
-| Session 1 | TBC | TBC | TBC | TBC |
+|  | Friday 24th, 31st March | 1pm-4pm | Training Room 4, Old Library, Streatham Campus | Registration Closed |
 
-Registration for this course is handled by [University of Exeter Researcher Development](https://www.exeter.ac.uk/research/doctoralcollege/early-career-researchers/traininganddevelopment/rdprogramme/)
+Registration for this course is via [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=d10qkZj77k6vMhM02PBKU6c8tNVRoxhAjFFJWmm07JtUMjM5WTdQSzVJVUZMUE5HTEROSjNTNjI0TS4u).
 
-## Set-up instructions for attendees
-
-If you have registered for this course you can find the [instructions for setting up your computer here.](https://uniexeterrse.github.io/workshop-template-test/setup.html)
 
 ## Start course
 
-If you are unable to attend any of the dates above the [notes for this course are available here](https://uniexeterrse.github.io/workshop-template-test/contents.html) and are freely available to work through in your own time. Please note that you will need to have completed the set up instructions above.
+If you are unable to attend any of the dates above the [notes for this course are available here](https://uniexeterrse.github.io/computational-thinking/contents.html) and are freely available to work through in your own time. Please note that you will need to have completed the set up instructions above.
 
 ## Follow up courses
 
@@ -52,7 +52,7 @@ If you are interested in becoming part of our community of workshop helpers, lea
 
 ## Acknowledgements
 
-This course was adapted from XXX and has been developed by the University of Exeter's Research Software Engineering Group and [a team of generous volunteers](https://uniexeterrse.github.io/UoE-workshop-template/acknowledgements.html) who are enthusiastic about sharing their skills with the wider research community. Its provision is dependent on the time of these volunteers. If you have benefitted in any way from this course and want to support its long term sustainability then please take the time to complete our feedback survey, recommend it to your colleagues, and enthuse about it to your senior leadership team.
+This course has been developed by the University of Exeter's Coding For Reproducible Research Team (https://uniexeterrse.github.io/computational-thinking/acknowledgements.html) who are enthusiastic about sharing their skills with the wider research community. If you have benefitted in any way from this course and want to support its long term sustainability then please take the time to complete our [feedback survey](https://forms.office.com/Pages/ResponsePage.aspx?id=d10qkZj77k6vMhM02PBKU6c8tNVRoxhAjFFJWmm07JtUQkpUUlkxMkQwTjg0TjhZNU42OTRFNzFWNi4u), recommend it to your colleagues, and enthuse about it to your senior leadership team.
 
 This workshop is brought to you by:
 
