@@ -2,7 +2,7 @@
 layout: page
 title: Pattern Recognition
 order: 
-session: 1
+session: 5
 length: 20
 toc: true
 ---
