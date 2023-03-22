@@ -17,7 +17,7 @@ We will have a collaborative document where we can post resources and answer Qs.
 
 ## Housekeeping
 
-The workshop in organised into episodes of content, which can be seen in the workshop schedule available on the course website. Our aim is to have an official break every 60-90 minutes, but there will also be periods in-between demonstrations where you are free to take additional comfort breaks if required.  This workshop will be delivered by the following methods... <live coding> <demonstrations and exercises>. Inclusion of interactive quizzes?
+The workshop in organised into episodes of content, which can be seen in the workshop schedule available on the course website. Our aim is to have an official break every 60-90 minutes, but there will also be periods in-between demonstrations where you are free to take additional comfort breaks if required.  This workshop will be delivered by the demonstrations, interactive quizzes and exercises.
 
 
 Our aim is to be responsive to the needs of the group, both in person and virtual. Therefore, think of the schedule as a guide rather than a strict timetable. We welcome questions and queries as we go along, there are helpers in the room so raise your hand if you need assistance. There is also a dedicated helper for the virtual participants so please raise your virtual hand to attract their attention. In order to try to provide equality for virtual and in person participants we request that the Teams/Zoom chat is used minimally and all questions/comments etc are posted in our collaborative notes document. This will be saved and distributed at the end of the workshop.  
