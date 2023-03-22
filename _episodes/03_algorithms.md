@@ -32,19 +32,23 @@ Being an efficient programmer is not only about writing code - it is about solvi
 
 In both of the examples above (recipes and directions) we can think of instances where they go wrong. We can use these to demonstrate the distinction between errors in the algorithm compared to errors in how it is transcribed into instructions.
 
-Let's start with the case of directions, let's say you've arrive in London at Paddington train station and you need to get to . A friend has helpfully written down the route by the Underground.  Your algorithm is as follows:
+Let's start with the case of directions, let's say you've arrive in London at Paddington train station and you need to get to Edgware. A friend has helpfully written down the route by the Underground.  Your algorithm is as follows:
 
-1. Get on the XXX line 
+1. Get on the Hammersmith & City, Circle or District line. 
+2. Ride one stop.
 
-You follow these instructions and when you get off the tube, the sign at the Station say XXX. That's not the right destination. 
+You follow these instructions and when you get off the tube, the sign at the Station says Edgware Road. That's not the right destination. 
 
-You call your friend.There response is "Oh I thought you wanted to get to XXX". This isn't a problem with the instructions (i.e. the code) the problem is the algorithm had the wrong destination in mind when designing it. The instructions to get to the incorrect destination were correct and you followed them as planned. 
+You call your friend. Their response is "Oh I thought you wanted to get to Edgware ROAD not Edgware". This isn't a problem with the instructions (i.e. the code) the problem is the algorithm had the wrong destination in mind when designing it. The instructions to get to the incorrect destination were correct and you followed them as planned. 
 
 Clear, on your required final destination, your friend now gives you some new directions. You write them down and follow them. 
 
-1. Get on XXX line
+1. Get on Hammersmith & City or Circle line
+2. Ride four stops to Kings Cross
+3. Change to Northbound Northern Line
+4. Ride to end of line.
 
-Again you get out at your final destination, where the sign says XXX. The wrong location again! You call your friend, she runs through the instructions with you again and you compare to your written notes. This time you incorrectly wrote the instructions down. In this instance the problem was a coding error, the algorithm was fine, but you had an error in the set of instructions you used to navigate. 
+Again you get out at your final destination, where the sign says High Barnet. The wrong location again! You call your friend, she runs through the instructions with you again and you compare to your written notes. This time you incorrectly wrote the instructions down. In this instance the problem was a coding error, the algorithm was fine, but you had an error in the set of instructions you used to navigate. 
 
 Typically coding errors are easier to detect and fix, than problems with the underlying algorithm. To pick these up you need to manually work through the algorithm and compare what the code is actually doing compared to what you thought it should be doing. 
 
