@@ -43,9 +43,9 @@ The purpose of this workshop is to step back from coding and focus on how to des
 
 There are four key processes involved. We are going to cover each of these over the next two sessions and use lots of playful exercises to demonstrate how to implement them.
 
-[four pillars](../images/fourpillars.jpg)
+![four pillars](../images/fourpillars.jpg)
 
-At the end of the session you will be able to:
+At the end of the workshop you will be able to:
 
 * define what an algorithm is
 * design an algorithm by implementing the following techniques:

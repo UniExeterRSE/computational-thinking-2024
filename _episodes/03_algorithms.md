@@ -10,17 +10,14 @@ toc: true
 
 Real computational tasks can be complicated. To accomplish them you need to **THINK BEFORE YOU CODE**.
 
-:running:
-## Activity
-In small groups discuss what you think the most important elements to think about before writing a program are: 
-
-
+### Activity
+In small groups discuss what you think the most important elements to think about before writing a program are. How do you approach the task?
 
 ## What is an algorithm? What is a program?
 
-An algorithm is a sequence of steps that solve a specific problem. A program is a sequence of instructions that tells the computer to do something. They differ from each other in that an algorithm will solve the problem while a program implements an algorithm in a form that a computer can execute.
+An algorithm is a sequence of steps that solve a specific problem. A program is a sequence of instructions that tells the computer to do something. They differ from each other in that an algorithm will solve the problem while a program implements an algorithm in a form that a computer can execute. All computer programmes are based on algorithms.
 
-Although we might think of algorithms as complicated things used by programmers, in fact algorithms are essentially used by people everyday to complete tasks. They range from incredibly simple to incredibly complex. 
+Although we might think of algorithms as complicated things used by programmers, in fact algorithms are used by people everyday to complete tasks. They range from incredibly simple to incredibly complex. 
 
 For example:
 
@@ -43,14 +40,14 @@ Algorithms are essential tools but they are also really powerful. Apart for the 
 
 Being an efficient programmer is not only about writing code - it is about solving problems in a way that is translatable to a computer. It means using your knowledge of how a computer or language works, to use relevant constructs as the basis of your solution. Often what people think of as a problem with code writing is in fact a problem with the algorithm. 
 
-In both of the examples above (recipes and directions) we can think of instances where they go wrong. We can use these to demonstrate the distinction between errors in the algorithm compared to errors in how it is transcribed into instructions.
+In many of the examples above (recipes and directions) we have probably experienced time when they go wrong. We can use these to demonstrate the distinction between errors in the algorithm compared to errors in how it is transcribed into instructions.
 
 Let's start with the case of directions, let's say you've arrive in London at Paddington train station and you need to get to Edgware. A friend has helpfully written down the route by the Underground.  Your algorithm is as follows:
 
 1. Get on the Hammersmith & City, Circle or District line. 
 2. Ride one stop.
 
-You follow these instructions and when you get off the tube, the sign at the Station says Edgware Road. That's not the right destination. 
+You follow these instructions and when you get off the tube, the sign at the station says Edgware Road. That's not the right destination. 
 
 You call your friend. Their response is "Oh I thought you wanted to get to Edgware ROAD not Edgware". This isn't a problem with the instructions (i.e. the code) the problem is the algorithm had the wrong destination in mind when designing it. The instructions to get to the incorrect destination were correct and you followed them as planned. 
 
@@ -63,7 +60,7 @@ Clear, on your required final destination, your friend now gives you some new di
 
 Again you get out at your final destination, where the sign says High Barnet. The wrong location again! You call your friend, she runs through the instructions with you again and you compare to your written notes. This time you incorrectly wrote the instructions down. In this instance the problem was a coding error, the algorithm was fine, but you had an error in the set of instructions you used to navigate. 
 
-Typically coding errors are easier to detect and fix, than problems with the underlying algorithm. To pick these up you need to manually work through the algorithm and compare what the code is actually doing compared to what you thought it should be doing. This uses a combination of predicting and evaluation to debug your code.
+Typically coding errors are easier to detect and fix, than problems with the underlying algorithm. A good text editor with syntax and language highlight can prevent these. To pick up issues with the algorithm, requires more manual work, typically working through the algorithm and compare what the code is actually doing compared to what you thought it should be doing. This uses a combination of predicting and evaluation to debug your code.
 
 Consider the exercise below:
 
@@ -77,13 +74,13 @@ y=input('Y = ')
 print(x+y)
 ```
 
-You can try this programme using this online console: https://tio.run/#python3
+You can try this programme using this online console: (https://tio.run/#python3)[https://tio.run/#python3]
 
 Type the three lines of the programme into the **Code** box.
 
 Type your numeric input into the **Input** box as shown below:
 
-![console](../images/tioscreenshot.png)
+<img src="../images/tioscreenshot.png"  width="120%" height="120%">
 
 Was the output as you expected? 
 
@@ -107,7 +104,7 @@ Often what we think are issues with implementation are actually issues of algori
 
 A simple way to represent an algorithm can be through a flowchart. This can be a useful tool for visualizing and designing the algorithm. The flowchart below represents the instructions to direct someone from Paddington Station to Edgware on the Underground.
 
-![toEdgware](../images/directions.png)
+![toEdgware](../images/directions.jpg)
 
 This example is fairly straightforward as the steps are sequential and there is a single path through the network. You can think of this algorithm as a series of instructions. 
 
@@ -115,7 +112,7 @@ Alternatively the steps in the algorithm might need to be decisions or rules. In
 
 We can solve the same problem using a more complex flowchart that includes some decision making stages. 
 
-![tube_flowchart](../images/tube-flowchart-decision.jpg)
+<img src="../images/tube-flowchart-decision.jpg)"  width="75%" height="75%">
 
 Most algorithms, especially complex ones, will need both components. 
 
