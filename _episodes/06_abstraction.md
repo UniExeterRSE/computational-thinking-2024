@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Abstraction
-order: 3
+order: 6
 session: 2
 length: 20
 toc: true

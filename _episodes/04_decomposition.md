@@ -7,47 +7,42 @@ length: 20
 toc: true
 ---
 
-## 2. Decomposition
+## Decomposition
 
 Decomposition refers to the process of breaking down a complex problem into smaller, simpler subproblems. The idea is to solve each subproblem independently 
-and then combine the solutions to obtain a solution to the original problem. This allows for the creation of more efficient and manageable algorithms by 
+and then combine the solutions to obtain a solution to the original problem. This allows for the creation of more efficient and manageable algorithm by 
 reducing the complexity of the problem and making it easier to identify and solve individual parts. Equally, this makes your code more reusable as each function 
-solves a smaller issue which may be relevant elsewhere. 
+solves a smaller issue which may be resuable elsewhere. 
 
+When breaking the problem down it can be helpful to first of all identify the 
+* starting point
+    * what input do you have
+    * what are the initial conditions
+* end point. 
+    * what output would you ultimately want
+    * what is the end goal 
 
-🏃‍♀️ **Activity: Caesar cypher** 
+You can then start to fill in the gaps in between. Through the process of building your algorithm you may find that your start point isn't actually the start point, you need to go further back in the process. Similarly you might find your end goal needs to be redefined.
 
-In cryptography, a Caesar cipher is a very simple encryption technique in which each letter in the plain text is replaced by a letter some fixed number of positions down the alphabet. For example, with a shift of 3, A would be replaced by D, B would become E, and so on. The method is named after Julius Caesar, who used it to communicate with his generals. ROT-13 ("rotate by 13 places") is a widely used example of a Caesar cipher where the shift is 13. In Python, the key for ROT-13 may be represented by means of the following dictionary:
+For example in our tube navigation example crucially we are starting at Paddington TUBE Station, but our passenger is at Paddington RAIL station. Our algorithm is meaningless is they can't get to the TUBE station, so we need to add an additional step to navigate from the TRAIN station to the TUBE station. It is important to remember, that your computer knows absolutely nothing at the beginning of a new programme you need to tell it everything. 
 
-```
-key = {'a':'n', 'b':'o', 'c':'p', 'd':'q', 'e':'r', 'f':'s', 'g':'t', 'h':'u', 
-       'i':'v', 'j':'w', 'k':'x', 'l':'y', 'm':'z', 'n':'a', 'o':'b', 'p':'c', 
-       'q':'d', 'r':'e', 's':'f', 't':'g', 'u':'h', 'v':'i', 'w':'j', 'x':'k',
-       'y':'l', 'z':'m', 'A':'N', 'B':'O', 'C':'P', 'D':'Q', 'E':'R', 'F':'S', 
-       'G':'T', 'H':'U', 'I':'V', 'J':'W', 'K':'X', 'L':'Y', 'M':'Z', 'N':'A', 
-       'O':'B', 'P':'C', 'Q':'D', 'R':'E', 'S':'F', 'T':'G', 'U':'H', 'V':'I', 
-       'W':'J', 'X':'K', 'Y':'L', 'Z':'M'}
-```
+![toEdgware](../images/directions.png)
 
-In R, this dictionary is equivalent to the dataframe:
+### Activity: Caesar cypher 
 
-```
-key <- data.frame(start = letters, 
-                  shift = c(letters[14:26],
-                            letters[1:13]))
-```
+In cryptography, a Caesar cipher is a very simple encryption technique in which each letter in the plain text is replaced by a letter some fixed number of positions down the alphabet. For example, with a shift of 3, A would be replaced by D, B would become E, and so on. The method is named after Julius Caesar, who used it to communicate with his generals. ROT-13 ("rotate by 13 places") is a widely used example of a Caesar cipher where the shift is 13. 
 
+Your task in this exercise is to design the algorithm that a computer would need to follow to encode/decode a message using ROT-13.  How does the idea of decomposition apply here? What would you do to implement this? 
 
-Your task in this exercise is to implement an encoder/decoder of ROT-13. Once you're done, you will be able to read the following message:
+It might be helpful to think through how you would manually decode the following message:
 
 ```
 Pnrfne pvcure? V zhpu cersre Pnrfne fnynq!
 ```
 
-How does the idea of decomposition apply here? What would you do to implement this?
+
 
 Credits: [Torbjorn Lager](https://www.gu.se/en/about/find-staff/torbjornlager)
 
 Note: Because there are 26 letters (2×13) in the basic Latin alphabet, ROT13 is its own inverse; that is, to undo ROT13, the same algorithm is applied, so the same action can be used for encoding and decoding.
 
------

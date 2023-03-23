@@ -3,7 +3,7 @@ layout: page
 title: Algorithms
 order: 3
 session: 1
-length: 20
+length: 35
 toc: true
 ---
 
@@ -107,9 +107,9 @@ Often what we think are issues with implementation are actually issues of algori
 
 A simple way to represent an algorithm can be through a flowchart. This can be a useful tool for visualizing and designing the algorithm. The flowchart below represents the instructions to direct someone from Paddington Station to Edgware on the Underground.
 
-![toEdgware](../images/nav1.png)
+![toEdgware](../images/directions.png)
 
-This example is fairly straightforwrd as the steps are sequential and there is a single path through the network. You can think of this algorithm as a series of instructions. 
+This example is fairly straightforward as the steps are sequential and there is a single path through the network. You can think of this algorithm as a series of instructions. 
 
 Alternatively the steps in the algorithm might need to be decisions or rules. In this instance we need to use logic or define conditional criteria which determine the pathway through the algorithm. 
 
@@ -123,6 +123,7 @@ When you think about your algorithm as a series of steps, it become easy to see 
 
 ![car_park](../images/nav2.jpg)
 
+Hopefully here you can appreciate, that the reason you can programme multiple solutions to the same problem is because you can design multiple algorithms to solve the problem. 
 
 -----
 
