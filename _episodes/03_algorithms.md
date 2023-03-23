@@ -105,9 +105,9 @@ Often what we think are issues with implementation are actually issues of algori
 
 ## Designing algorithms
 
-A simple way to represent an algorithm can be through a flowchart. This can be a useful tool for visualizing and designing the algorithm. Look at the example below for the navigation of the tube network above. 
+A simple way to represent an algorithm can be through a flowchart. This can be a useful tool for visualizing and designing the algorithm. The flowchart below represents the instructions to direct someone from Paddington Station to Edgware on the Underground.
 
-![tube_directions](../images/directions.jpg)
+![toEdgware](../images/nav1.png)
 
 This example is fairly straightforwrd as the steps are sequential and there is a single path through the network. You can think of this algorithm as a series of instructions. 
 
@@ -121,8 +121,14 @@ Most algorithms, especially complex ones, will need both components.
 
 When you think about your algorithm as a series of steps, it become easy to see how you could extend it to solve more problems, or to make it more generalizable. For example, here is a single algorithm to navigate from Paddington to two different destinations. 
 
-![tube_flowchart](../images/nav2.jpg)
+![car_park](../images/carpark.png)
 
+
+This algorithm is written as a 
+
+-----
+
+🏃‍♀️ 
 
 ### Activity: Snakes, ladders & flowcharts
 
