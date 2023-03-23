@@ -105,10 +105,13 @@ Often what we think are issues with implementation are actually issues of algori
 
 ## Designing algorithms
 
-A simple way to represent an algorithm can be through a flowchart. Looking at the representation of a car park below, by following the steps of the flowchart you should be able to find out how many cars are at the exit, entrance and inside at the end.
+A simple way to represent an algorithm can be through a flowchart. The flowchart below represents the instructions to direct someone from Paddington Station to Edgware on the Underground.
 
-![car_park](../images/carpark.png)
+![toEdgware](../images/nav1.png)
 
+If we were to add in another destination it may look like this: 
+
+![toEdgwareOrHighBarnet](../images/nav2.png)
 
 This algorithm is written as a 
 
