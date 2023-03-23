@@ -10,9 +10,9 @@ toc: true
 
 Real computational tasks can be complicated. To accomplish them you need to **THINK BEFORE YOU CODE**.
 
-## Activity
+##  :running: Activity
 In small groups discuss what you think the most important elements to think about before writing a program are: 
- * question to prompt
+
 
 
 ## What is an algorithm? What is a program?
@@ -50,7 +50,7 @@ Clear, on your required final destination, your friend now gives you some new di
 
 Again you get out at your final destination, where the sign says High Barnet. The wrong location again! You call your friend, she runs through the instructions with you again and you compare to your written notes. This time you incorrectly wrote the instructions down. In this instance the problem was a coding error, the algorithm was fine, but you had an error in the set of instructions you used to navigate. 
 
-Typically coding errors are easier to detect and fix, than problems with the underlying algorithm. To pick these up you need to manually work through the algorithm and compare what the code is actually doing compared to what you thought it should be doing. 
+Typically coding errors are easier to detect and fix, than problems with the underlying algorithm. To pick these up you need to manually work through the algorithm and compare what the code is actually doing compared to what you thought it should be doing. This uses a combination of predicting and evaluation to debug your code.
 
 Consider the exercise below:
 
