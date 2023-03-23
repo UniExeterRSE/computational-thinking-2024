@@ -80,7 +80,7 @@ Type the three lines of the programme into the **Code** box.
 
 Type your numeric input into the **Input** box as shown below:
 
-!(console_screenshot)[../images/tioscreenshot.png]
+![console_screenshot](../images/tioscreenshot.png)
 
 Was the output as you expected? 
 
