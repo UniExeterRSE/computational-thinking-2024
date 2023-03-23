@@ -10,7 +10,8 @@ toc: true
 
 Real computational tasks can be complicated. To accomplish them you need to **THINK BEFORE YOU CODE**.
 
-##  :running: Activity
+:running:
+## Activity
 In small groups discuss what you think the most important elements to think about before writing a program are: 
 
 
