@@ -7,6 +7,9 @@ length: 10
 toc: true
 ---
 
+## Activity
+What you think computational thinking is?
+
 ## What is computational thinking?
 
 When we program we write a series of commands in a language that our computer understands. We use a combination of functions and syntax to instruct the computer to enact a series of commands. When you sit down to program there is an assumption that you already know:
