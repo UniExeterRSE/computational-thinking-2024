@@ -80,7 +80,7 @@ Type the three lines of the programme into the **Code** box.
 
 Type your numeric input into the **Input** box as shown below:
 
-<img src="../images/tioscreenshot.png"  width="120%" height="120%">
+!(console_screenshot)[../images/tioscreenshot.png]
 
 Was the output as you expected? 
 
@@ -141,9 +141,4 @@ When designing an algorithm there are techniques we can use to aid us in the des
 * pattern recognition
 * abstraction
 
-We are going to cover each of these in the following sections.
-
-
-
-
-
+You may have implemented some of these already, knowingly or unknowingly, in the previous activity. We are going to cover each of these in the following sections.
