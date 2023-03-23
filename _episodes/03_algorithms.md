@@ -26,6 +26,18 @@ For example:
 
 * The method of a carbonara recipe is an algorithm designed to assemble certain elements into a meal. 
 * Directions are an algorithm designed to navigate a person from A to B.
+* How to read a clock.
+* Wet laboratory protocol or or clinical trial protocol or data collection protocol
+
+Algorithms are essential tools but they are also really powerful. Apart for the purpose of programming they can be advantageous for the following reasons
+
+1. Reproducibility - having a standardized process means you can ensure the same steps on every execution.
+2. Efficiency - knowing the stages of an algorithm means you can remove redundancy/identify repetitive processes.
+3. Scalability - a clearly defined process can easily be extended to run on larger datasets or more complex problems.
+4. Sharable - efficient way to share a process across collegues, teams, departments or institutions.
+5. Automation - once a solution has be defined you can identify how it can be automated. 
+
+
 
 ## Faulty design vs faulty implementation 
 
@@ -76,31 +88,37 @@ Type your numeric input into the **Input** box as shown below:
 Was the output as you expected? 
 
 Hmm... did we tell it what to do incorrectly? Or did we tell it to do the wrong thing?
-Try setting 'computational' and 'thinking' as your input for X and Y. What is the difference between these types of input? Clue: type()
+
+To help decipher why it went wrong try setting 'computational' and 'thinking' as your input for X and Y. What is the difference between these types of input? Clue: type()
+
+The problem here is that the code is not accepting the input as numeric values, it is treating them as text strings. Our algorithm is missing a critical step where is converts the text input into numeric values. The correct algorithm is coded below
 
 ```
-print('computational'+'thinking')
+x=input('X = ')
+y=input('Y = ')
+x = float(x)
+y = float(y)
+print(x+y)
 ```
 
-Often what we think are issues with implementation are actually issues of algorithm.
+Often what we think are issues with implementation are actually issues of algorithm. The claim there is something wrong with my code/script infers that the problem is syntax, when more likely the problem is with what you are asking the computer to do. This phrasing can be misleading as it fails to recognize the distinguish of the two possible sources of error.
 
-
-## Understanding algorithms
+## Designing algorithms
 
 A simple way to represent an algorithm can be through a flowchart. Looking at the representation of a car park below, by following the steps of the flowchart you should be able to find out how many cars are at the exit, entrance and inside at the end.
 
 ![car_park](../images/carpark.png)
 
 
-## Types of algorithms
+This algorithm is written as a 
 
+-----
 
+🏃‍♀️ 
 
-## Creating algorithms
+### Activity: Snakes, ladders & flowcharts
 
-🏃‍♀️ **Activity: Snakes, ladders & flowcharts**
-
-Snakes and ladders is dice game where players advance along the board based on the roll of the dice. Upon landing on a board square a player may either encounter a snake, where they are forced backwards a number of squares, a ladder, where they advance a number of squares, or nothing, in which case they remain on that square. A player wins when they reach the end of the board.
+Snakes and ladders is dice game where players advance along the board based on the roll of the dice. Upon landing on a square on the board, a player may either encounter a snake, where they are forced backwards a number of squares, a ladder, where they advance a number of squares, or nothing, in which case they remain on that square. A player wins when they reach the end of the board.
 
 Design a flowchart for the game. The total number of board squares should be 100, and the maximum number of squares a player is advanced or returned should be 30.
 
@@ -108,12 +126,15 @@ If you want to create the flowchart online you can use [this website](https://dr
 
 -----
 
-When designing an algorithm there are certain elements that make algorithmic problem-solving more efficient:
+
+When designing an algorithm there are techniques we can use to aid us in the design of the solution to our problem and design of our algorithm:
+
 * decomposition
 * pattern recognition
 * abstraction
 
------
+We are going to cover each of these in detail.
+
 
 
 
