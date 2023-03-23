@@ -112,13 +112,13 @@ Alternatively the steps in the algorithm might need to be decisions or rules. In
 
 We can solve the same problem using a more complex flowchart that includes some decision making stages. 
 
-<img src="../images/tube-flowchart-decision.jpg)"  width="75%" height="75%">
+![toEdgeware2]"../images/tube-flowchart-decision.jpg)
 
 Most algorithms, especially complex ones, will need both components. 
 
 When you think about your algorithm as a series of steps, it become easy to see how you could extend it to solve more problems, or to make it more generalizable. For example, here is a single algorithm to navigate from Paddington to two different destinations. 
 
-![car_park](../images/nav2.jpg)
+![navigation](../images/nav2.jpg)
 
 Hopefully here you can appreciate, that the reason you can programme multiple solutions to the same problem is because you can design multiple algorithms to solve the problem. 
 
