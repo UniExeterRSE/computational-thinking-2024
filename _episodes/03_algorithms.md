@@ -67,7 +67,7 @@ Typically coding errors are easier to detect and fix, than problems with the und
 
 Consider the exercise below:
 
-🏃‍♀️ **Activity: Addition** 
+### Activity: Addition 
 
 We have created a program that asks a user for x and y values and then returns the sum of them.
 
@@ -126,8 +126,6 @@ When you think about your algorithm as a series of steps, it become easy to see 
 
 -----
 
-🏃‍♀️ 
-
 ### Activity: Snakes, ladders & flowcharts
 
 Snakes and ladders is dice game where players advance along the board based on the roll of the dice. Upon landing on a square on the board, a player may either encounter a snake, where they are forced backwards a number of squares, a ladder, where they advance a number of squares, or nothing, in which case they remain on that square. A player wins when they reach the end of the board.
@@ -145,7 +143,7 @@ When designing an algorithm there are techniques we can use to aid us in the des
 * pattern recognition
 * abstraction
 
-We are going to cover each of these in detail.
+We are going to cover each of these in the following sections.
 
 
 
