@@ -34,3 +34,7 @@ key <- data.frame(start = letters,
                   shift = c(letters[14:26],
                             letters[1:13]))
 ```
+
+### Iteration
+
+Once you have recognised a pattern, this means you only need to write the code for this action once. You may either be able to reuse a previously written function to help solve a different problem, or it may be that you can iterate the same solution.... 

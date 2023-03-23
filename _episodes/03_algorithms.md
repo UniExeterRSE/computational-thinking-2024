@@ -112,7 +112,7 @@ Alternatively the steps in the algorithm might need to be decisions or rules. In
 
 We can solve the same problem using a more complex flowchart that includes some decision making stages. 
 
-![toEdgeware2]"../images/tube-flowchart-decision.jpg)
+![toEdgeware2](../images/tube-flowchart-decision.jpg)
 
 Most algorithms, especially complex ones, will need both components. 
 
