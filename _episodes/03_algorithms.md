@@ -121,10 +121,8 @@ Most algorithms, especially complex ones, will need both components.
 
 When you think about your algorithm as a series of steps, it become easy to see how you could extend it to solve more problems, or to make it more generalizable. For example, here is a single algorithm to navigate from Paddington to two different destinations. 
 
-![car_park](../images/carpark.png)
+![car_park](../images/nav2.jpg)
 
-
-This algorithm is written as a 
 
 -----
 
