@@ -8,7 +8,9 @@ toc: true
 ---
 
 ## Activity
-What you think computational thinking is?
+What do you think computational thinking is?
+
+[Click here to respond](https://app.sli.do/event/m6XYpC2e4mqGfAtAu8t4aW/embed/polls/b58bf595-5b35-45b0-b2e5-b813c4b186fe)
 
 ## What is computational thinking?
 
