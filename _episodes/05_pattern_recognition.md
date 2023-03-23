@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Pattern Recognition
-order: 
-session: 5
+order: 5
+session: 1
 length: 20
 toc: true
 ---
