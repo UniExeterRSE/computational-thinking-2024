@@ -57,7 +57,7 @@ Consider the exercise below:
 
 🏃‍♀️ **Activity: Addition** 
 
-Create a program that asks a user for x and y values and then returns the sum of them.
+We have created a program that asks a user for x and y values and then returns the sum of them.
 
 ```
 x=input('X = ')
@@ -65,8 +65,18 @@ y=input('Y = ')
 print(x+y)
 ```
 
+You can try this programme using this online console: https://tio.run/#python3
+
+Type the three lines of the programme into the **Code** box.
+
+Type your numeric input into the **Input** box as shown below:
+
+![console](../images/tioscreenshot.png)
+
+Was the output as you expected? 
+
 Hmm... did we tell it what to do incorrectly? Or did we tell it to do the wrong thing?
-Try adding 'computational' and 'thinking'. What is the difference between these types of input? Clue: type()
+Try setting 'computational' and 'thinking' as your input for X and Y. What is the difference between these types of input? Clue: type()
 
 ```
 print('computational'+'thinking')
@@ -82,6 +92,10 @@ A simple way to represent an algorithm can be through a flowchart. Looking at th
 ![car_park](../images/carpark.png)
 
 
+## Types of algorithms
+
+
+
 ## Creating algorithms
 
 🏃‍♀️ **Activity: Snakes, ladders & flowcharts**
@@ -90,7 +104,7 @@ Snakes and ladders is dice game where players advance along the board based on t
 
 Design a flowchart for the game. The total number of board squares should be 100, and the maximum number of squares a player is advanced or returned should be 30.
 
-If you want to create the flowchart online you can use [this website](https://draw.io/) (used to create the above flowchart)
+If you want to create the flowchart online you can use [this website](https://draw.io/) (used to create the above flowchart). You will need to choose a location to save the output. We suggest OneDrive as this will link to your University OneDrive account. 
 
 -----
 
