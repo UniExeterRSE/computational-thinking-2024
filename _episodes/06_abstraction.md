@@ -11,7 +11,7 @@ toc: true
 
 Abstraction is about simplifying problems, making them easier to solve. The idea is to identify and then ignore information that is not essential.
 
-A great example of abstraction in practice is the London tube map. The problem the tube map is designed to solve, is to help people navigate the underground system in London. The essential information to complete this task is
+A great example of abstraction in practice is the London tube map. The problem the tube map is designed to solve is to help people navigate the underground system in London. The essential information to complete this task is:
 
 1. the name of each station
 2. which lines each station is on
