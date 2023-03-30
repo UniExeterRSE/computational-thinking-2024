@@ -18,4 +18,3 @@ A selection of different difficulty sudokus for you to use to help develop your 
 
 Once you have a solution, can you use your computational thinking skills to improve the speed of the algorithm?
 
-

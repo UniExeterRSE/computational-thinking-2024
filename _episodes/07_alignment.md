@@ -44,8 +44,81 @@ This is a completed go and play now passes through to the next player. So we hav
 
 It is unlikely the game will be finished after one turn. If we knew how many turns would be needed we could do a nested for loop to loop through the players a set number of times or a single for loop to process a set number of turns, but we don't know what the total number of gos or turns will be. We could set it to loop a conservative number of times, such that the game is guaranteed to finish before that expires. This might work but isn't a great solution. Firstly, there is an element of guesswork, what would an appropriate number be? Secondly, this wouldn't scale (if we were to increase the number of squares on the board for example). Thirdly, we would need to add into our loop an `IF` statement to check if the end criteria has been met so it could break out of the loop and stop executing. For loops don't have a natural way of stopping if a condition is met. 
 
-For loops are great for repetitive processes that occur a fixed number of times. If instead we have a repetitive process we keep repeating until a condition is met we instead need a `while` loop. This will automatically stop once the criteria is met. In our example, the game finishes if the current player lands on square 100, so `P[i] == 100`, the game continues if the current player has not yet got to the final square so `P[i] < 100`.
+For loops are great for repetitive processes that occur a fixed number of times. If instead we have a repetitive process we keep repeating until a condition is met we instead need a `while` loop. This will automatically stop once the criteria is met. In our example, the game finishes when a player lands on square 100, so `max(P) == 100`, the game continues if the current player has not yet got to the final square so `max(P) < 100`.
 
 
 ![flow chart of computational solution](../images/snakes-programme.png)
 
+For this programme to run we need to introduce some dice rolls. To simulate a dice, we sample from the numbers 1,2,3,4,5,6. 
+
+If you want to see this in code here is an example for R:
+
+```
+nPlayers <- 4
+endSquare <- 100
+snakes<-data.frame("Top" = c(14,28,34,68,85,96), "Bottom" = c(3,7,12,42,23,67))
+ladders<-data.frame("Bottom" = c(5,22,38,51,64,72), "Top" = c(16,56,66,76,91,84))
+
+# create vector of current positions
+P<-rep(1, nPlayers)
+
+# specify starting player
+i<-1
+
+while(max(P) < endSquare){
+
+    D <- sample(c(1:6),1)
+    P[i]<-P[i]+D
+    if( P[i] %in% snakes$Top){
+        P[i]<-snakes$Bottom[snakes$Top== P[i]]
+        print(paste("Player ", i, " goes down a snake."))
+    } else if (P[i] %in% ladders$Bottom) {
+        P[i]<-ladders$Top[ladders$Bottom == P[i]]
+        print(paste("Player ", i, " goes up a ladder."))
+    }
+
+    print(paste("Player", i, "is at square", P[i])) 
+ 
+   if(i == nPlayers){
+        i <- 1
+    } else {
+        i <- i+1
+    }
+}
+```
+
+A solution in python would be
+
+```
+import random
+nPlayers = 4
+endSquare = 100
+snakes = { 14:3, 28:7, 34:12, 68:42, 85:23, 96:67 }
+ladders = { 5:16 , 22:56 , 38:66 ,51:76 ,64:91 ,72:84 }
+
+# create vector of current positions
+P = [1]*4
+
+# specify starting player
+i = 0
+
+while max(P) < endSquare:
+
+    D = random.randint(1,6)
+    print(D)
+    P[i] = P[i]+D
+    if P[i] in snakes:
+        P[i] = snakes[P[i]]
+        print("Player " + str(i + 1)  + " goes down a snake.") 
+    elif P[i] in ladders:
+        P[i] = ladders[P[i]]
+        print("Player " + str(i + 1)  + " goes up a ladder.") 
+    
+    print("Player " + str(i + 1)  + " is at square " + str(P[i])) 
+ 
+    if i == (nPlayers - 1):
+        i = 0
+    else:
+        i+=1
+
+```
