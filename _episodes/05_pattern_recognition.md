@@ -23,9 +23,9 @@ For example let's say we want to calculate the first 5 square numbers. This invo
 5*5
 ```
 
-For each number we are doing the same thing multiplying it be itself. We can easily take advantage of that fact to write a function, or use a for loop or similar construct.
+For each number we are doing the same thing: multiplying it by itself. We can easily take advantage of that fact to write a function, or use a for loop or similar construct.
 
-Sometimes it's harder to define a pattern
+Sometimes it's harder to define a pattern.
 
 For example let's say we want to calculate the first 5 triangular numbers. This involves 5 sums:
 
@@ -37,7 +37,7 @@ For example let's say we want to calculate the first 5 triangular numbers. This 
 1+2+3+4+5
 ```
 
-We can see a pattern here but it's not as simple as the square number example. It is a pattern of two stages, first we need to create a list or sequence of the numbers, before we can sum them. Now we have identified the pattern we can try to construct some code to automate/simplify it's implementation.
+We can see a pattern here but it's not as simple as the square number example. It is a pattern of two stages: first we need to create a list or sequence of the numbers, before we can sum them. Now that we have identified the pattern, we can try to construct some code to automate/simplify its implementation.
 
 ### Activity: The swap puzzle
 
