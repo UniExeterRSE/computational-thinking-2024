@@ -11,7 +11,7 @@ toc: true
 
 Abstraction is about simplifying problems, making them easier to solve. The idea is to identify and then ignore information that is not essential.
 
-A great example of abstraction in practice is the London tube map. The problem the tube map is designed to solve, is to help people navigate the underground system in London. The essential information to complete this task is
+A great example of abstraction in practice is the London tube map. The problem the tube map is designed to solve is to help people navigate the underground system in London. The essential information to complete this task is:
 
 1. the name of each station
 2. which lines each station is on
@@ -24,7 +24,7 @@ Information that is not essential to this problem is the geographical relativity
 
 ## Relation to programming
 
-Abstraction is an approach that helps solve problems both computational and otherwise. A core component of programming is about creating and composing abstractions,using objects and functions to represent and define the solution. 
+Abstraction is an approach that helps solve problems both computational and otherwise. A core component of programming is about creating and composing abstractions, using objects and functions to represent and define the solution. 
 
 Abstraction works by establishing a level of complexity at which a person interacts with a system, suppressing the more complex details below the current level. Abstraction allows programmers to define objects and functions that can interact with each other in a predictable way without having to understand the underlying details of their implementation. 
 
