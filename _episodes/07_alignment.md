@@ -26,7 +26,7 @@ The most relevant approach here is abstraction. We need to identify which inform
 
 Let's return to our snakes and ladders example. Here is a flowchart of the human solution. 
 
-![flow chart of human solution](../images/snakes-human.png)
+![flow chart of human solution](../images/snakes_human.png)
 
 Th crux of the game is the movement around the board. At any point in time the computer needs to know where each player is located. Using abstraction, the critical piece of information is then the number of the square that the player is on at that time in the game. We need a variable to store this for each player. We could have a series of variables ("P1", "P2", "P3", ...) but snakes and ladders does not have a fixed number of players. It could be between 2 and 4. So it could be that some of these variables become redundant or we don't declare enough of them. 
 
@@ -47,7 +47,7 @@ It is unlikely the game will be finished after one turn. If we knew how many tur
 For loops are great for repetitive processes that occur a fixed number of times. If instead we have a repetitive process we keep repeating until a condition is met we instead need a `while` loop. This will automatically stop once the criteria is met. In our example, the game finishes when a player lands on square 100, so `max(P) == 100`, the game continues if the current player has not yet got to the final square so `max(P) < 100`.
 
 
-![flow chart of computational solution](../images/snakes-programme.png)
+![flow chart of computational solution](../images/snakes_programme.png)
 
 For this programme to run we need to introduce some dice rolls. To simulate a dice, we sample from the numbers 1,2,3,4,5,6. 
 
