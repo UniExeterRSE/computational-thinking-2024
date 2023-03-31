@@ -20,7 +20,7 @@ solve_sudoku <- function(bo) {
   empties <- find_empty(bo)
   if(is.null(empties)) {
     # If none, then the board has been solved
-    print_sudoku(bo)
+    print(bo)
     return(T)
   } else {
     # Collect the empty cell
@@ -37,6 +37,7 @@ solve_sudoku <- function(bo) {
       # Retest
       if(solve_sudoku(bo)) {
         # Until nothing left to solve
+       
         return(T)
       } else {
         # Otherwise that position does not work, reinitialize
